@@ -1,1 +1,1 @@
-# DS-MLOps-clicks
+# MLOps CTR Project
