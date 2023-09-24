@@ -1,0 +1,23 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python main_pipeline.py --config configs/train_config.yaml
+    deps:
+    - path: configs/train_config.yaml
+      hash: md5
+      md5: 303d0673fa125d25fc3fd039ea249020
+      size: 1152
+    - path: data/raw/
+      hash: md5
+      md5: e282e7b1f8e3911504db345150076fde.dir
+      size: 18217202
+      nfiles: 5
+    outs:
+    - path: models/catclf.pkl
+      hash: md5
+      md5: 71ef638d576d3f659f4d1c1145fa0b51
+      size: 36894
+    - path: models/metrics.json
+      hash: md5
+      md5: 221efdfc68ff634f0507a5b11d775b65
+      size: 164
