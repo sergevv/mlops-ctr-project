@@ -1,6 +1,6 @@
 stages:
   train:
-    cmd: python train_pipeline.py --config configs/train_config.yaml
+    cmd: python main_pipeline.py --config configs/train_config.yaml
     deps:
     - configs/train_config.yaml
     - data/raw/
