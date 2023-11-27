@@ -257,6 +257,7 @@ docker compose up
 
 Grafana будет доступна по адресу `localhost:3000`. После создания datasource Prometheus
 мы сможем создать дашборд, куда и вынесем необходимые метрики.
+![img_1.png](imgs/img_sem6_1.png)
 
 Project Organization
 ------------
